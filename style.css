@@ -7,6 +7,9 @@ header {
 	border-bottom: 1px solid #ddd;
 	padding: 25px 0 25px 0;
 }
+header {
+	background: white;
+}
 
 main {
 	display: block;
@@ -16,6 +19,9 @@ main {
 
 header, main, footer {
 	padding-bottom: 5%;
+}
+
+header, main, footer {
 	min-width: 855px;
 	overflow: hidden;
 }
@@ -66,6 +72,10 @@ h2, h3{
 }
 #rightFooter{
 	float:right;
+}
+
+h2{
+	font-weight: bold;
 }
 
 
