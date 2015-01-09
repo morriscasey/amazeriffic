@@ -1,0 +1,73 @@
+body {
+	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+}
+header {
+	background: white;
+	border-bottom: 1px solid #ddd;
+	padding: 25px 0 25px 0;
+}
+
+main {
+	display: block;
+	background: white;
+	padding-bottom: 5%;
+}
+
+header, main, footer {
+	padding-bottom: 5%;
+	min-width: 855px;
+	overflow: hidden;
+}
+
+header .container, main .container, footer .container {
+	width: 855px;
+	margin: auto;
+}
+
+header h1, .contact, #leftMain {
+	float: left;
+	width: 570px;
+}
+header nav, .sitemap, #rightMain{
+	float: right;
+	width: 285px;
+}
+h1,h5 {
+	font-size: 3em;  
+	float: left; 
+	width: 570px;
+	font-family: 'Ubuntu', sans-serif;
+}
+h5 {
+	font-size: 1.25em;
+	margin-bottom:20px;
+}
+footer{
+	margin-top: 5%;
+}
+h1, #contactName {
+	color: #b33;
+	font-style: italic;
+}
+a { 
+	color: #f00; 
+	text-decoration: none; 
+	font-weight: bold; 
+} 
+
+h2, h3{
+	font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 5%;
+}
+#leftFooter{
+	float:left;
+}
+#rightFooter{
+	float:right;
+}
+
+
+
+
